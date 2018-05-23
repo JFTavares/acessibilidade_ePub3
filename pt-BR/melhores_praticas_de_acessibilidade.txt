@@ -1,0 +1,674 @@
+WIPO logo
+Home Global Book Service Accessible Publishing Capacity Building About Us Search
+Search ABC
+ 
+Accessible Publishing Best Practice Guidelines for Publishers
+Editeur site		Daisy Consortium site
+The author of these guidelines, Sarah Hilderley, is grateful to the many people who contributed time and expertise to their preparation and development; and by name would like to acknowledge the extensive input and advice given by the following people in ensuring that this publication provides the most practical and usable advice for publishers.
+
+Alicia Wise – Elsevier
+Alistair McNaught – JISC TechDis
+Bernhard Heisner – DAISY Consortium
+Cristina Mussinelli – AIE
+Graham Bell – EDItEUR
+Mark Bide – EDItEUR
+Robert Kelly – American Physical Society
+Suzanne Taylor – Pearson US
+Download
+English: Best Practice Guidelines for Publishers in Word format Best Practice Guidelines for Publishers in PDF format
+French: Best Practice Guidelines for Publishers in Word format in French Best Practice Guidelines for Publishers in PDF format in French
+German:Best Practice Guidelines for Publishers in Word format in French Best Practice Guidelines for Publishers in PDF format in German
+Hindi: Best Practice Guidelines for Publishers in Word format in Hindi Best Practice Guidelines for Publishers in PDF format in Hindi
+Italian: Best Practice Guidelines for Publishers in Word format in Italian Best Practice Guidelines for Publishers in PDF format in Italian
+Japanese: Best Practice Guidelines for Publishers in PDF format in
+    Japanese
+Spanish: Best Practice Guidelines for Publishers in Word format in Spanish Best Practice Guidelines for Publishers in PDF format in Spanish
+This document was originally published in April 2011, as part of The Enabling Technologies Framework project funded by the World Intellectual Property Organization (WIPO). It is updated regularly and if you have any comments, suggestions or information that should be included please contact Sarah Hilderley at sarah@editeur.org.
+
+These guidelines have been endorsed by:
+
+The International Publishers Association
+The Federation of European Publishers
+The International Association of Scientific, Technical and Medical Publishers
+Contents
+Towards Accessibility
+
+What is an Accessible Product?
+
+Structure, Content and Appearance
+File formats – which ones are accessible?
+Guidelines for Senior Executives
+
+What are the benefits to your business?
+
+Call to Action
+
+Guidelines for Internal Accessibility Lead
+
+Where to start
+How to proceed
+Guidelines for Editorial and Design
+
+What you can do now
+
+Receiving enquiries
+Preparation of your files
+Preparing and editing images
+What to aim for
+
+Workflow options
+Guidelines for Production and IT
+
+How do you work?
+The DAISY Pipeline
+The “e-book” package
+Archiving
+How to conduct an Accessibility Audit
+
+Recommended Actions
+Technical Audit of your product
+How to add Structure to your documents
+
+Structure to be included
+When to include Structure in your workflow
+XML
+Supplying files to Intermediary Organisations
+How to respond to enquiries
+
+Understand the Legal Framework
+Problems with supplying Accessible materials
+How to participate in TIGAR
+
+Further Resources
+
+Glossary
+
+Towards Accessibility
+10% of people in the developed world and 15% in the developing world have some degree of print impairment. These are people with visual impairments, with dyslexia, or with motor disabilities which can seriously affect their ability to read. The publishing landscape is becoming much more user-oriented; ensuring your published content is accessible by all your potential readers is more and more important. Today’s readership needs to be able to consume technology in a variety of different ways and publishing’s metamorphosis from a print-dominated into a mixed and inexorably into a digitally-led industry presents an unprecedented opportunity for publishers to extend their products to the widest possible audience.
+
+Making sure that your products are accessible makes good business sense, commercially, legally and ethically (see “Guidelines for Senior Executives”). With the right people, processes and practices in place you can increase the size of your market while at the same time enhancing your Corporate Social Responsibility profile. The aim of this publication is to supply publishers with clear and concise guidance to assist them in these endeavours.
+
+Providing “access” to content for people with print impairments is a challenge that all publishers can and should be tackling; your efforts can make a discernible difference to your readers. Our guidelines encourage publishers to make their mainstream publications as accessible as possible so that full access becomes the norm rather than being “special”. There is no need for accessibility features to be excluding or intrusive – they will assist all of your readers. Ensuring that your publications incorporate accessibility features will also allow all your readers to customise their own invidivual reading experience while at the same time respecting copyright holders' rights. Technology that is adaptive to the individual will allow everyone to access content according to their choice whether they have a print impairment or not – there is no typical “customer”. Today’s mobile environment means that everyone can benefit from the same choices of access.  Having a digital product that reflows to a wide variety of screen sizes ensures that anyone can read the content, regardless of the device they choose or need to use.
+
+These guidelines provide background, allow you to explore your options and help you to manage many of the issues that you may encounter as you strive to make your products more accessible. There are experts in the field for you to work with and who will assist in the production of accessible content. All of these options are explained to give you a complete understanding of all the routes to accessibility available to you. We recommend that you make use of the Glossary at the back which is designed to help you navigate your way through this publication and accessibility issues in general.  The Further Resources section provides information and links to other associations and project groups that will be able to provide greater direction.
+
+And finally, as well as building accessibility into your own products, you can immediately help make accessible versions of your books more widely available to print impaired people around the world by participating in the TIGAR project – (see “How to participate in TIGAR”.)
+
+Back to Table of Contents
+
+What is an Accessible Product?
+A title that is accessible for one person may not be accessible for another; there are many different requirements depending on an individual’s capabilities, skills and preferences. Broadly speaking, a completely “accessible product” is one which offers the maximum flexibility of user experience for all readers and allows the content to be accessed and manipulated with ease by those with or without disabilities.
+
+For some readers their need can be fulfilled very simply, with Large Print or an existing PDF1 version whereas others find a fully navigable structured file (such as a DAISY file, an EPUB 3 file or an HTML based e-book) that they can use with text to speech software essential. Other readers prefer Braille (either using a standard embossed Braille edition or by accessing an electronic publication through a refreshable Braille device).
+
+For those with print impairment, difficulties can range from issues with font size right through to a complete inability to interact with any part of the page or screen. For many, the inflexibility of print based material in the past has meant that any form of access has been difficult, or impossible for blind readers, in the past. As a publisher, you are now in a position to change this with your digital content and in some cases you will be able to offer multiple perception channels to your readers. An accessible title allows everyone to have “access” to your content in the way that suits them. For a title to be accessible it involves a combination of four interacting strands:
+
+The technical nature of the product, which we are addressing in this document.
+The technical ability of assistive technologies (screen readers and magnifiers, e-book readers, DAISY players and playback software, refreshable Braille display, etc.)
+The skills of the users and their familiarity with using their mainstream and assistive technologies to interact with the “accessible” title.  This might also encompass their access to technical help and advice from accessibility specialists.
+Simple, well designed interfaces tested with print-impaired users.
+Reading experiences can be improved with some or all of the following options being made available within a file:
+
+Structurally-tagged content – Many accessibility and usability issues can be solved by including some level of “tagging” in your digital files – see the section entitled “How to add Structure to your documents”. The use of XML or HTML strageties may imply some change in your workflow in-house, but this is rapidly becoming necessary for your digital publishing in general.
+“Text to speech” (TTS) capability is a vital aid for many print impaired users. In the absence of a commercial audio book, digital text can easily be converted to synthetic speech using appropriate (and easily available) software. Users who can see the screen simply select the text they need and have it read aloud by text to speech tools. Users who cannot see a screen need screen reader tools which both read the content and provide audio navigation. For these users, the usability of text-to-speech is improved greatly by ensuring that the text is “tagged” with structural and semantic mark up, and by providing clear navigation within the document. The experience of reading with a screen reader is nothing like having a publication read to you, or listening to a recording, and is much closer to reading by sight. For example, screen readers allow navigation within the page, announce bulleted lists and tables, spell words on command, and can be set to read at rapid speeds and change voices and pitch for different types of content. However, you may find that decisions taken concerning Digital Rights Management (DRM) may have disabled the TTS option even though the rest of the file is accessible. The UK rights holder community has endorsed the recommendation to enable TTS.2
+Including a detailed navigable table of contents within the document, and providing a defined reading order (including, for example, appropriate links between the main flow of the text and any sidebar or box out text) helps those reading through audio to navigate their way through the book – and can be equally useful to those without visual impairment.  The correct reflowed order is necessary for viewing digital publications on a wide variety of screen sizes.
+“Alternative text” descriptions can explain illustrations for readers with reduced access to graphic information. The key points of images, graphs and diagrams can be described in extended captions, the body text or an ALT Text description of the purpose of the illustration - such descriptions will benefit all users, even those who can see the image.
+Font size, style and colour can have a huge impact on the reading experience. The ability to change these according to need is very beneficial and we know that many readers without permanent print impairment adjust font size to suit ambient vision needs. . For example, being able to choose a larger point size, a simple sans serif style or even a typeface specially designed for readers with visual impairment, to heighten the contrast between type and page, can immediately help those with common problems like age-related macular degeneration or dyslexia.
+Alternative background colours and controllable line spacing can help those with dyslexia to fully engage with the material and also benefit readers accessing text in different lighting conditions.
+Make sure that any DRM that may be applied to a particular title does not inhibit the accessibility of that title. In many cases, it can affect it greatly and even though a title may be very accessible, that can be negated by the DRM. DRM can restrict access technology, preventing users from reading the content of protected titles. Many screen reader manufacturers cannot afford the annual licensing fees that are required to become interoperable with industry standard DRMs. Supplying a file with DRM can therefore render the content completely inaccessible.  This is a time of rapid change and publishers should monitor DRM developments carefully and understand their impact on accessibility.
+Structure, Content and Appearance
+Any document can be thought of as a combination of Structure (the sequence of Chapters, Sections, A-heads, B-heads, body paragraphs and so on), Content (the words, spaces and images) and Appearance (the typographical style and geometric layout of the page and its contents).
+
+Traditional print-based publishing concentrates on Content and Appearance, and these two items are usually closely linked throughout the publishing process. More modern workflows concentrate initially on Structure and Content, and the Appearance (of text, at least) is determined from the Structure at a relatively late stage in the process – this is the essence of an XML-first workflow. For the purposes of accessibility, all three elements are required - but the most accessible files are ones where they can be separated and manipulated individually according to user requirements. For example, by disengaging the appearance from structure and content, and making it malleable, there is greater flexibility in delivery and any number of “designs”, tailored to each individual reader’s needs, can be applied to the text.
+
+A master XML file which has structure and content can be used to feed any number of appearances and different delivery formats. An “XML-first” workflow is a challenge for many publishers, but it is increasingly the best way forward for your digital content creation. It will also help you to build in all the “accessibility features” at the beginning of your workflows and it will become second nature during the creation of your products. Some publishers are finding that HTML5, with additional semantics, such as those provided in EPUB 3 provides a practical approach to introducing an XML workflow.
+
+Correctly implemented, having a production process that provides an accessible document can expand the customer set and enrich the document with additional content with little additional production cost.
+
+File formats – which ones are accessible?
+There are many different file formats being used in the publishing industry and these vary in the degree to which they can be seen as being “accessible”. No file format is automatically accessible – it is entirely possible to produce inaccessible publications in any format. For most purposes, the file formats that you are likely to use are:
+
+Microsoft Word – for many print-impaired readers (particularly in the education sector) this file format offers the easiest route to accessible information as the text content of the file is easily mutable and it can contain all three elements of structure, content and appearance. Unfortunately these files can be problematic to supply as your content will have gone through many cycles of revision since its initial creation in Word, and the original Word file often bears no relation to the finished version of the text. Creating a useful file in Word may mean creating a new Word file at the end of your production process.  The ubiquitous nature of Word means it is often seen as the ‘best’ option, but requests for Word files sometimes indicates a lack of awareness of what other accessible formats are available.
+Print ready PDFs – these are often the least accessible of all file formats as these particular PDFs contain content and appearance, but only minimally reflect structure – there is no reading order and no structural or semantic tagging. This particularly applies to image based PDFs (e.g. scans of text, or graphically rich books) as they contain no textual content at all. If PDFs are used, they should be edited in Adobe Acrobat to ensure the underlying text is present, and to add tagging. Note that while there are tools to automatically add tagging, human review and editing of the tags is nearly always essential.
+PDFs optimised for digital use – these files tend to be more navigable and include structure so for some users they may provide a reasonable option as they can include a reading order, ALT tags etc. These files have all three elements of structure, content and appearance. However, they tend not to be as customisable for individual reader needs as some other formats, and should not be seen as the first format of choice in most circumstances.
+DAISY – Digital Accessible Information Systems. This has become the foremost specialist standard format for use in the creation of accessible versions for the print impaired, but is not widely used (or even known) by publishers. It can, however, be the most accessible file format available. It is essentially an XML based e-book format created by the DAISY Consortium, an organisation which represents libraries for people with print disabilities. A DAISY book can be explained as a package of digital files that may include: one or more digital audio files containing a human or pre-recorded synthesised narration of part or all of the source text; a marked-up file containing some or all of the text; a synchronisation file to relate markings in the text file with time points in the audio file; and a navigation control file which enables the user to move smoothly between files while synchronisation between text and audio is maintained. Specialist DAISY players can play the audio, read the text using Text to Speech and navigate through the book in a flexible way. The DAISY Standard allows the producer full flexibility regarding the mix of text and audio ranging from audio-only, to full text and audio, to text-only. The DAISY Consortium offers an open suite of software tools – “The DAISY Pipeline” – designed to assist in the creation of DAISY files which also has increasing support for conversion to EPUB 3. Recent additions to the Pipeline include a “Save as DAISY” add in for MS Word – see Further Resources for links to this tool.  The Pipeline also has increasing support for conversion to EPUB 3.
+EPUB – This is rapidly becoming the universal “e-book” format for commercial publishers, and as version 3 becomes more widely available is likely to be increasingly seen as the format that is most suitable for both commercial exploitation and meeting accessibility needs. EPUB is an open standard for e-book creation and distribution and is the most common file format for commercially-available e-books.  It can be “read” on almost all e-reader devices (with the exception of Amazon’s Kindle – and even there, most Amazon Kindle books start life as EPUBs and are converted to the Kindle format prior to distribution).  The latest version, EPUB 3, combines the ease of creation and expressive capability of HTML, with a host of accessibility options, and it has been adopted by the DAISY Consortium as its next generation digital standard delivery format, to replace the specialist DAISY format. For publishers, this means that the same file format used to deliver mainstream commercial e-books can also deliver optimum accessibility to print-impaired readers. It is constructed using ordinary HTML5 and CSS (cascading style sheets), so publishers are familiar with the basic technology, and a rich set of authoring and production tools is available. On top of this, EPUB 3 defines a range of features that improve navigation and accessibility, such as detailed structural markup and the ability to include pre-recorded speech synchronised with the text (called ‘media overlays). EPUB 3 also allows accessible video, mathematical and technical content (via MathML), and interactivity. Using EPUB 3, publishers can make their mainstream commercial products highly accessible.  For more detailed guidance and information see O’Reilly’s free e book Accessible EPUB 3. The IDPF also publish guidance at http://www.idpf.org/accessibility/guidelines/.
+HTML-based e-books – These files can be among the most accessible on the market. By using the predominant Web technology, you ensure that your customers with disabilities will be well-practiced in using the file type with their assistive technology. Customisation within Web browsers is simple and well-known. As these books are played in Web browsers, your work to make the files highly flexible will benefit a wide audience, including users without disabilities. Also, customisations that users have already set up to access the Web will likely carry over this type of eBook directly. Some versions of HTML e-books can incorporate MathML, providing access to maths and sciences to people with disabilities.
+XML files – More specifically all types of XML files that logically tag book files (using a proprietary or a standard DTD (document type definition) or schema, such as DocBook) have the potential to be extremely accessible. They contain structure and content but not appearance.  However, end users (and those who support them) are unlikely to have the specialised XML skills needed to make use of them, so these files are likely only to be suitable when dealing with people with an unusually advanced technical capability, with technically skilled commercial organisations, or intermediary organisations that support people with print disabilities.  Normally, these XML files are transformed into a distribution format, such as EPUB 3 or DAISY, before being made available outside the organisation which creates them.
+Layout Application files—These files can contain structure, content and appearance, in a mutable form and, in contrast to Word files, they represent the “final version” of a publication, as no editing takes place afterwards; they could be useful for provision of content in a “professional” or mediated context, such as providing publisher content to an e-book distributor like CourseSmart or a similar trusted intermediary organization. However, typical print-impaired readers (and those who support them) have no access to, or skill in the use of applications such as InDesign, Illustrator or Quark; in general, application files are not suitable for provision to those seeking accessible formats. It is worth noting, however, that InDesign 6 already has an export option to EPUB 3; Adobe has indicated that InDesign 7’s “Export to EPUB” be further improved.
+LaTex files – can sometimes be a suitable choice, particularly for mathematical and technical material. Publishers who receive manuscripts in TeX or LaTeX, or who use these formats in their typesetting process, may be able to supply the files in this format for accessibility purposes. However, they are suitable only for those print impaired readers who have the necessary technical skills (or have access to them).
+Custom/Proprietary e-books – You may wish to use an e-book vendor that offers a proprietary e-book format and, perhaps, a proprietary delivery system. Unfortunately, many vendors present their products as “accessible”, when in fact the level of accessibility is very low. 
+As a publisher, you will need to do your own evaluation of the file format to ensure a quality product and accurate marketing (see “How to conduct an Accessibility Audit”). In this case, you’ll want to evaluate the vendor’s product against “real world” accessibility. You may also need to give explicit instructions to the vendor about their own DRM settings (e.g. to switch on text to speech functionality).
+
+It is worth noting that even the most “accessible” formats can be misused to create books that are wholly inaccessible. The potential for accessibility is built into the format, but must be correctly and sensitively used to produce an accessible product. This is the case with all formats and built-in accessibility cannot be assumed. It is hugely beneficial to conduct user testing on your “accessible” content so that you can be sure that these files have been correctly produced. In addition a title may only be partially accessible and it is still worth supplying as much content as you can in the format required. There may be an opportunity at a later date when you are able to supply the balance.  Worth remembering here is that both the content, and the reading system used to present the content, need to be accessible.
+
+Back to Table of Contents
+
+Guidelines for senior executives
+At this key time for digital publishing, there is an unprecedented opportunity to reach the widest possible audience. In reshaping your company and your products to meet the challenges of industry-wide digital change, you can at the same time meet the needs of print-impaired consumers, who make up a significant proportion of the population. In addition, regulatory requirements for accessibility of digital content are being set in many markets, including education and government, i.e. the product must be accessible for procurement purposes. Your company could put in place an approach to its digital publishing that benefits all consumers. By making publications available in ways where a print-impaired customer might select a different font size, style or colour, use voice synthesis to read the text aloud, or change the text into Braille, you are allowing your readers the opportunity to maximise their engagement with your content.
+
+To achieve this, publishing houses need to consider putting in place a company policy that demands the very best endeavours toward accessible publishing on the part of all employees; this represents a benefit for both the company and for society at large. By providing the appropriate lead, you are ensuring that your commitment to the accessibility agenda makes this a top priority for everyone in the company.
+
+Providing your publications in ways that optimise accessibility need not be technically challenging. Recent research has shown that many publishing houses hold all of the essential technical levers but simply lack clear knowledge of the requirements of the accessibility community3. With your personal commitment, and for little or no incremental cost, this barrier can be overcome. For many companies the technology is already available but there is a lack of awareness regarding how best to apply it.
+
+What are the benefits to your business?
+Commercial – More people will be willing and able to buy, borrow, read and experience your books. You will be extending the reach of your publishing efforts as accessible content improves the reading experience for all your customers as well as increasing the longevity of your content by making it available in a digital and highly accessible format.
+Ethical – Accessible publishing makes a huge difference to those with print impairments. When you are unable to provide accessible products yourself, you can facilitate the creation of accessible products by collaborating with external suppliers.
+Legal – Accessible publishing helps you to meet the relevant legal obligations in your markets.
+Call to Action
+Include a commitment to accessible publishing in your company policy and make sure that this is advertised in company literature and on your website. Provide prominent contact information for anyone who may need to contact the company with enquiries relating to accessibility.
+Appoint a person or team responsible for your accessibility agenda. An internal advocate is essential to provide a focal point for all communication and activity in-house. Unless you choose to take up this role yourself, you will need to delegate this core responsibility to someone who will document and champion company policy and facilitate its adoption across all departments. They should feel passionately about the subject and have a strong influencing style. Give this appointment real power within the business to allow them to operate effectively. This will help you to set the company tone. We suggest you should be looking for someone who can display the following:
+A real commitment to the issue of accessibility
+An understanding of your business as a whole
+A great communicator with an ability to influence all departments
+Confidence with digital technology
+A good understanding of all the products you publish with a view to advising on how accessible your products could be and how best to make them so.
+Take some time to personally understand the issues and the options for accessibility that are available to you in the digital environment. If you choose to offer alternative products and support for those delivering these products you need to be able to show and communicate your understanding. The first four sections of these guidelines are designed to help you do this.  Accessibility issues can affect everyone and your understanding of this will serve to ensure that your digital publishing reaches wider markets.
+Support internal change to your digital workflows as this will enhance all opportunities for accessible publishing
+Back to Table of Contents
+
+Guidelines for Internal Accessibility Lead
+You are the lynchpin: the internal advocate for your company’s accessibility policy and you are responsible for ensuring that all departments and individuals within the company collaborate to implement that policy fully. A thorough understanding of the issues surrounding accessibility will be vital, alongside a real passion to see through the necessary changes within your organisation on behalf of the print impaired community.
+
+The key tasks necessary to this role include:
+
+Responsibility for documenting, communicating and promoting the implementation of the accessibility policies established at the highest level within your company.
+Promoting general internal awareness of accessibility issues and communicating industry change.
+Responsibility for influencing decision-making at all levels of seniority and in all departments, the aim being to align everybody’s efforts so that your accessibility policies are applied consistently and efficiently.
+Where to start
+Before you begin, decide on your tone and philosophy. How you present the topic will make a world of difference in the quality of the resulting accessibility. If you make sure that people know that you feel this is important, your accessibility initiative will gain momentum from the enthusiasm that employees show when given the chance to make a difference.
+
+In the first instance you should get to know all of the departments within your company and “make some friends”. It is impossible for everyone to be an “expert” in all of the topics related to accessibility so cultivating key contacts within each area could be a confidence-inspiring place to start. It may be appropriate to hold regular meetings and where no obvious contact appears you can often find someone who takes naturally to the subject.
+
+You should establish your current capabilities as a company. The publishing industry has many types and degrees of capability and it is important for you to gauge where you, as a company, fit in. To make a start you will need to:
+
+Perform an accessibility audit – this is covered in much greater detail in the section entitled “How to conduct an Accessibility Audit”. This will give you a proper understanding of your company’s capabilities and attitudes and show you what you could be doing immediately to improve your response to the print impaired.
+You will also need to understand the legal position in your own markets – there are different legal obligations in different countries, and you will need to make sure (at a minimum) that your policies are sufficient to keep you on the right side of the law.
+Where this is available in your markets, ensure your company is registered in Publisher Lookup and make sure that your permissions / sales teams are fully versed in all matters surrounding accessibility. Publisher Lookup is a collaborative database providing contact information to educationalists who are trying to source electronic versions of titles for print impaired learners. Publishers who register make it simpler for educationalists to find the right contacts within their company, set expectations for what can be supplied, and can set up a standard internal process for dealing with those requests. If Publisher Lookup is not available in your markets it may be worth lobbying your trade association to create this simple and effective service.
+Make an effort to understand the workflows used within your company. How does the content reach its final incarnation and what workflows are being used or developed in-house in your digital publishing? Talk to your production and IT departments (if this is outside your usual work remit) and make sure you understand the publishing workflow within your own environment.
+Understand the types of digital files that are being used to create your products both in-house and by your suppliers. There are a large number of options and you need to understand exactly what files are currently available and how accessible these might be – see the section entitled “What is an Accessible Product”.
+Understand how and where your digital files are being stored, so that you are able to influence this in the future. To provide an accessible file you need to be able to find it and get a copy easily; how your titles are archived plays a crucial role here.
+Understand the metadata workflow in-house and influence this, where necessary. Your accessible products must be discoverable by your readers and, without discoverability, you will still not reach everyone. Encourage the use of ONIX for Books4, and particularly its accessible product codes so that you can tell your customers how accessible your digital content is. See Guidelines for Production and IT for further information on metadata.
+Consider where your products are sold (or made available to readers). If accessible e-books are sold via an inaccessible online store, then their suitability for print-impaired readers is compromised.
+There may be industry guidance available within you own market and you should research these recommendations. For example, in the UK, the recently published national occupational standards for publishing have built in requirements for knowledge of accessibility issues. These recognize the need for attention throughout the supply chain and could be a useful tool in your internal promotion of the need for accessibility and in developing the capabilities to deliver it.
+How to proceed
+There are three routes to accessibility open to you and in most cases you will need to employ at least two to start with. Firstly you may be in a position to supply accessible files directly when you receive a request from a specific reader (or more likely a support person on behalf of that specific reader). Secondly, you may wish to utilise some out of house help and there are various organisations which can help you. There are a number of intermediary services, particularly in the US, and internationally through the DAISY Consortium, who can help you to produce accessible files from a variety of different media. These organisations support people with print disabilities and many have established accessible publishing programmes themselves. Thirdly, and ideally, your commercial products will increasingly come to have accessibility built in as a matter of course. This third option is the ultimate goal but may not be achievable immediately. Whichever routes you wish to follow, you will need to establish working groups in-house to improve corporate awareness and to resolve any workflow issues. Questions around content structure and file management will need to be discussed and decisions taken to implement the company policy that you are advocating.
+
+You will need to be influential across all levels of seniority within the business. When presenting the topic to more senior members of your executive it would be useful for them to understand how your suggestions may make good business sense. It is quite possible that you may have to acknowledge that there will be costs to be incurred and to present these as part of a business case. You may have to work hard to persuade them to follow your suggested course of action but if there is an overarching company policy in place you will find it much easier to gain their support. It can also be useful for them to hear about other success stories – much confidence is placed in action that has worked elsewhere.
+
+Many of your colleagues, who do not understand the details of accessibility and cannot perceive the level of accessibility in the products, will be making decisions about accessibility. It falls to you to explain the technology and user experience issues as much as possible in addition to making sure that employees understand fully what the term “print impairment” actually means. Ultimately, you are not responsible for producing accessible content but you are responsible for ensuring that your company policy is adhered to and for understanding the issues surrounding that policy.
+
+Back to Table of Contents
+
+Guidelines for Editorial and Design
+Your company’s success in increasing the accessibility of your products can have a significant effect on growing the potential readership. As the departments responsible for the content and the appearance of that content you have a central role to play in how accessible your titles are.
+
+Research has shown that many publishing companies now consider the potential for digital re-use when commissioning titles and preparing them for publication5. A variety of publishing formats and media may be appropriate for a title, rather than just a traditional print based approach – so the content needs to be prepared in a way that makes it simple to create these different formats, rather than treating each as a unique product. Given this requirement and the workflows that are typically used to meet it, there is no reason why accessibility cannot be “built in” from the start of the publishing process – and if it is, in many cases it implies little or no additional effort on your part, just some minimal changes in approach.
+
+What you can do now:
+Receiving enquiries from sales or permissions
+Often your department will be expected to deal with requests for the supply of accessible content and you need to be able to respond to that enquiry quickly and with the correct information for that title. In order to do this you need to be able to:
+
+Understand your in-house process and who is responsible for supplying the technical information concerning the particular title in question.
+Have a thorough understanding of the various types of files that are being used in-house and the level of accessibility they may have (see “What is an Accessible Product”).
+Make sure that everyone is aware of the issues surrounding accessibility and appreciates that enquiries should be dealt with in a timely and professional manner.  Do not assume that the provision of a PDF ultimately helps to provide accessible information to the print impaired end user – it will probably be of little or no help.
+Preparation of your files
+In preparing your files you may wish to consider a number of areas which could considerably affect the accessibility of the material you are producing. Whilst it is desirable that any file should be malleable and allow the reader to customise their own version you may wish to ensure that you think about their needs from the outset. The Royal National Institute of Blind People (RNIB), in the UK, has a number of clear print and e-book layout guidelines (see “Further Resources”) about factors that affect readability by the print-impaired:
+
+Document text size should be 12–14 pt, preferably 14 pt.
+The font you choose should be clear and open, avoiding anything stylised.
+All body text should be left aligned.
+Keep the text layout clear, simple and consistent.
+Use emphasis like bold, italic or all caps very sparingly.
+Text shouldn't be overlaid on images.
+The contrast between the text and background should be carefully considered.
+All text should be the same orientation on the page.
+Space between columns and lines of text should be large enough to be distinct.
+Any information conveyed in colour or through images should also be described (see below).
+Preparing and editing images
+Your publications may include images and illustrations and it is beneficial if you are able to supply alternative descriptions for them (often known as ALT Text). In many instances an image provided for sighted people is not the best way to communicate a piece of information for a blind person. A description is a much better option. Make sure that you include the title or reference number of the image if it had one: text can then be cross-referenced to the source image if necessary.  The American Department of Education’s DIAGRAM project group has completed some extremely useful work on image description and is developing tools to assist in creating descriptions. (See Further Resources.)
+
+When preparing ALT Text you should think about the image that is being described:
+
+Is the image just an ornament? If so, a simple caption may suffice as no referencing may be required.  If the graphical item is just an ornamental part of the design, then having empty Alt Text would be appropriate.
+Does the image reflect information that is contained in the surrounding text? It may be relevant for understanding the page or the book but your description may be aided by the main body of the text already.
+Does the image reflect information relevant for understanding the page or book that is not contained in the surrounding text? If so, you need to make sure that  ALT Text includes all relevant information. This is the most challenging task for those editing and preparing ALT Text.  Developments are underway to allow for longer descriptions of information-dense graphical items, e.g. a complex diagram or infographic.
+Does the image also justify a Long Description? Alt text is practically limited to just a few words, and some diagrams need much more extensive explanatory text.
+
+The following ALT Text shows how greatly image description can vary and how important it is to include all the necessary information to describe the image within a given context.
+
+Helpful geographical description: The estuary scenery is a mix of salt marsh and tidal creeks flanked by industrial complexes.
+
+Less helpful: Power lines in the morning sun.
+
+Helpful environmental description: The large pylon lines tower over woodland and pasture and are visible for many miles around.
+
+Less helpful: Pylons in a field.
+
+What to aim for:
+Workflow options
+The challenge of digital publishing has already compelled many forward-thinking companies to review their internal workflows and create innovative new ways of producing and selling their content. Time-hallowed workflows designed for the efficient creation of print based products are no longer always the answer in today’s digital arena. If your company is not already looking at your editorial and design processes, this is an ideal time to begin looking at the ways you work and whether these suit the many different types of products you may now be taking to market. Traditionally, departments have worked towards arriving at files that are suitable for your printers; now it might be better for you to consider preparing a file from which the printer’s file could be just one of many outputs, alongside those for different digital platforms.
+
+Take a little time to gain a basic understanding of the various different file formats you already work with in-house, those you might support in the future and the level of accessibility that they can provide – see the section entitled “What is an Accessible Product”. It is essential that you have an understanding of the concepts of Content, Structure and Appearance which this section also covers. By disengaging the appearance and making it malleable, there is greater flexibility in delivery and any number of “appearances”, tailored to each individual reader’s needs, which can be applied to the text.
+
+This can be achieved by ensuring the Structure of your documents is captured and retained through the publishing process (rather than any initial Structure being replaced by Appearance at an early stage). The section entitled “How to add Structure to your documents” looks at this in more detail. The “XML-first” workflow style described in that section aims to produce a master XML file which has Structure and Content, and can be used to feed any number of different delivery formats, where the Appearance of each format can be created automatically from the Structure. Introducing an “XML-first” workflow is a challenge for many publishers, but it is increasingly the best way forward for your digital content creation – in other words, all your content creation. Almost as a “side-effect”, such a workflow will enable you to build-in features required to maximise the accessibility of those delivery formats.
+
+Some publishers have demonstrated how an XML workflow can empower the editorial department and free up the design departments enormously. For editors, for example, there may no longer be the need to ask the design department to make repeated small alterations for you; as a result you can be much more in control of the content.
+
+For the purposes of accessibility, a well-structured document produced in an XML workflow can be the first step towards success.
+
+Back to Table of Contents
+
+Guidelines for Production and IT
+For many people with a print impairment, a mainstream e-book solves many, if not all, of the challenges they experience. Reading devices, apps and software allow them to choose font, size, text-to-speech, sometimes even background colour, and the physical nature of a reading device or PC may be more suitable than a large book. There will, however, be circumstances when you are asked to supply additional materials and how you do this is largely dependent on the way that you work and the workflows you may have in place.
+
+How do you work?
+The type of workflow you have can affect the way you are able to respond to requests for accessible material. Some publishers have changed their workflows to cope with their digital publishing lists and some are working to tried and tested traditional workflows and “retrofitting” their files to suit the digital market.
+
+If you are already running an “XML-first” workflow you may wish to refer to the section “How to add structure to your documents” for further information and advice. As you are aware this allows you enormous flexibility and you should be able to supply a variety of different formats depending on the type of request, providing you have an efficient archiving system in place.
+You may be running a traditional workflow and converting your content to XML at a later stage – an “XML-last” workflow. This can also provide you with the flexibility to supply various types of accessible file. You may be outsourcing the conversion from your printer’s PDF files and receiving back base XML from which you can generate a variety of formats.
+You may not be utilising XML at all and if this is the case, there are still plenty of ways to be able to supply accessible files. You may be able to supply a PDF (see “What is an Accessible Product”) and you could look at ways to make your PDFs more accessible. Ideally your source file will be as accessible as possible, prior to conversion to PDF. This can save a lot of time later. The template styles for headings and paragraphs should be set up, alternative text for images should be inserted and any links in the document should be checked. When you actually convert the source file – for example a Microsoft Word file – to PDF format there are a number of items in the conversion process that you can make sure are checked under the different tabs:
+Settings tab:	Fully functional PDF
+Add Bookmarks
+Enable Accessibility
+Reflow with tagged Adobe PDF
+Security tab:	Enable text access for screen reader devices
+Word tab:	Convert cross references and table of contents to links
+Convert footnote and endnote links
+Enable advanced tagging
+Bookmarks tab:	Convert Word headings to bookmarks
+Once you have converted to PDF you can run the Adobe Acrobat Accessibility "Full Check" and use Acrobat tools to fix any problems (if your version of Acrobat allows). This won’t check everything and you will still need to check the PDF for images that require ALT text. You can also use the Adobe Read Out Loud function to check the reading order and to get a sense of how the document will present to those people using screen readers (see “Further Resources”).
+
+You may be sending your PDF files to a conversion house which is converting it into XML in order for you to produce your e-books (a so-called XML-last workflow). This XML may be useful where accessibility requests come from technically-skilled intermediaries such as academic support services. For non-mainstream requests (for example, a physical copy in Braille) a Trusted Intermediary would be able to convert it into a specialised accessible format (see “What is an Accessible Product”) more easily than converting the original PDF. A small word of caution here – you may find that when converting PDF files that are tagged for accessibility into XML, the accessibility tagging (e.g. Alt text, enhanced navigation) is not automatically converted– it is worth checking this.
+You may also be in a position to supply a Word file which is highly accessible and in fact is often the format of choice for many students as they are often able to manipulate these to meet their own requirements. But it can be problematic to supply these files as your final version of the content may not match your original Word file due to editing during the production process. However, you can sometimes export the final content back into Word in order to be able to supply what is an extremely accessible format.  The “Save as DAISY” add-in for MS Word is a useful tool from the DAISY Pipeline suite of tools (see "Further Resources").
+Whichever methods you use to produce your e-books you can supply some form of digital material that will allow greater access than the printed page.
+
+The DAISY Pipeline
+The DAISY Consortium (See “What is an Accessible Product” for information on DAISY files) has developed a cross platform, open source framework for document and digital talking books transformations – the DAISY Pipeline. This suite of tools can greatly assist you in your endeavours to produce accessible files that may be required in addition to your mainstream products. See “Further Resources” for details of the tools and services included in the Pipeline and links to installation guides.  The DAISY Pipeline suite includes the plug-ins “Save as DAISY” for MS Word and “Export as DAISY” for Open Office transformations.
+
+The “e-book” package
+Whichever workflow you are following, there are ways to improve the accessibility of your e-books. The more accessible your mainstream e-books, the greater the number of print-impaired people will find that your products meet their needs, and fewer people will have to request specific accessible files. These action points should be applied by whoever is putting together your e-book package. This may indeed be someone from production or IT but it may also be an out of house supplier and it is your responsibility to make sure that this is part of their brief. An in-house commercial decision may be required in the first instance as some of these action points may affect any DRM.
+
+Don't lock the appearance of the text, so that it can be customised.
+Don't disable Text to Speech (TTS).
+Include metadata as a standard operation.  The latest EPUB 3 standard allows detailed metadata to be embedded inside the e-book package. The recently extended code lists for ONIX for Books now offer publishers far greater scope for descriptions of accessible products. It is expected that the metadata about accessibility of digital products will continue to expand.
+Add structure and navigational tools (see “How to add structure to your documents”).
+Request that all graphics should be accompanied by alternative text.
+File checking – have any obvious errors been made that could easily be avoided.
+Archiving
+Thorough archiving is good practice: in all likelihood, your organisation cares for its digital assets, and tries to ensure that they are stored safely and are easy to find for future repurposing. A good digital archiving strategy is increasingly vital as your products themselves become increasingly digital.
+
+Try to archive your titles in as many formats as you can to give you greater flexibility when responding to requests, e.g., Word file (including the “Save as DAISY” option), application files, XML based format, PDF for digital supply, print ready PDF etc.
+You may already have a digital asset management system set up in-house or you may be archiving your titles in an ad hoc manner depending on where they are produced. The size of your company can greatly affect this but it is worth ensuring that whatever system you have is organised, efficient and easily understood and, most importantly, that it is used consistently.
+Ensure that the people tasked with responding to requests for accessible material have a good grasp of what is available in the archive or asset management system, as well as of the “What is an Accessible Product” section of this document, so that they can match the needs of the print-impaired person with the types of document available.
+Good archiving and consistent communication with the relevant departments will assist you in your endeavours to supply all of your content in the most accessible manner possible.
+
+Back to Table of Contents
+
+How to Conduct an Accessibility Audit
+An essential preliminary to success in improving accessibility is to gain a full understanding of where you are as a company and how capable you are as a team in supplying the needs of those who have some form of print impairment. Find ways in which you can measure the effectiveness of your current approach to accessibility in a systematic and reproducible way, so that the audit can regularly be re-visited (perhaps annually), giving you the opportunity to observe progress, to set targets for improvement in future years and to design the specific actions necessary to achieve these improvements.
+
+Recommended actions:
+Conduct an in-house survey to assess company awareness about accessibility issues and how much your publishing staff understand what it means to create “accessible products”. You can conduct this on an informal sample basis or set up an on-line questionnaire for wider circulation. Ideally you will get explicit backing for this from the most senior management in the company, and can ask all members of staff at every level to participate.
+Questions may include:
+Are you aware of the challenges faced by people with print impairment?
+Are you aware of which of your file formats are more accessible than others?
+How would you react to enquiry for an accessible title?
+What opportunities does EPUB 3 provide for accessibility?
+What is an EPUB file and how does it relate to a DAISY file?
+Does your commissioning process involve consideration of digital re-use?
+To what extent do you consider accessibility for people with print impairment in your publishing practices?
+Are you happy for users to customise the way they view their text in e-books?
+The answers to these and other similar questions could give you great insight into the level of awareness in-house and where your initial efforts should be directed.
+Test the reality of the user experience with the team or person responsible for answering customer enquiries, by submitting an anonymous request yourself. This will demonstrate to you how well equipped you are as a company to respond to enquiries about accessible content from print-impaired individuals or from institutional support staff.
+Conduct an assessment of your products overall – make sure you have a full understanding of your product type and the various formats that you offer as a company, both yourselves and through others (including for example large-print specialists). What proportion of your titles are ever published in large print, and how soon after initial publication? What proportion of your e-books are text-to-speech enabled? Have any of your publications ever been converted to Braille? Does anybody know? See the section entitled “What is an Accessible Product” to help you if you are unfamiliar with the various file formats on offer.
+Look at your archiving – are the right files readily available and who is responsible for managing them and delivering them when they are requested? You may indeed have accessible formats available but are the teams who answer enquiries from customers able to access them or know who to approach to access them?
+Assess your production workflows in and out of house. Do you already have an “XML-first” workflow or are you still operating a more traditional approach? By having an understanding of the type of workflow (or workflows) in operation, you can immediately assess your current capability for supplying some types of digital files.
+Technical Audit of your Product
+Test the practical experience of a print-impaired reader or an accredited organisation using your files. Just how accessible are your files? Even the most “accessible” of formats can be used in ways that create text that is partly or wholly inaccessible. The potential for accessibility may be built into a format, but it must be implemented to produce an accessible product.
+
+You will need to do your own evaluation of the product to ensure its quality. You may wish to enlist the help of your IT department to conduct this more technical audit, and it might also be helpful to ask for assistance from members of staff who have print impairments. Or look for third party assistance – especially if this is provided by people who themselves are print impaired. When assessing the capability of your digital files you should think about the following points:
+
+Text access
+Can all of the text be read by screen readers?
+Is there a logical reading order?
+Are all headings marked as headings so that screen readers can navigate by heading?
+Can text style, line spacing, size, colour and contrast be customised?
+Image access
+Do all the appropriate images have alternative text that screen readers will read in-line with the text?
+Do all the appropriate images have long description text that screen readers will announce as available, so that screen reader users can choose when to access this information?
+Are extended descriptions for complex images, charts and graphs structured with headings, tables and lists that are recognisable by screen readers?
+Are decorative images marked appropriately, so that they can be silent in screen readers?
+Access to Special Types of Data
+Are tables, table header cells and table data cells marked semantically, so that screen readers can announce table headers as the user moves between cells?
+Are sections in different human languages marked with a language code, so that screen readers can automatically switch pronunciation schemes?
+How are math equations and music notation represented?
+If there is embedded multimedia, does it meet any established accessibility standards (see “Further resources”).
+Supported Screen Readers
+On which screen readers have the features described in previous questions been tested?
+Have you tested with other types of assistive technology such as refreshable Braille displays?
+Is it possible for a third party to further edit the files, in order to add any accessibility features that are missing (such as alt-text)?
+Other
+Are there any other accessibility features included/supported in the files (e.g. zoom, zoom with text-reflow, synchronised pre-recorded human audio or synthesised audio)?
+Are page numbersof the digital version kept in sync with the page numbers in the print version of the book, so that it can be used as an accessible alternative in classes where many students are using the print book?
+What source materials are used in the production of your files? Have you chosen the correct workflow in-house to suit the various formats you may be working with?
+Once you have conducted this assessment you can publish the results in-house, cross referenced to your newly-minted company policy on accessibility. No doubt, you will find you have a number of action points from this audit which will help you establish your priorities and your longer range actions. In this way, the process begins.
+
+Set a plan, regularly visit it and your products and so the process continues.
+
+Back to Table of Contents
+
+How to Add Structure to your Documents
+Without inbuilt structure it can be very difficult for anyone to navigate content (whether or not they have a print impairment). It can be harder for readers to get an overview of the content and it can be difficult to render digital content on smaller screens. Well structured content brings benefits to all readers and disproportionate benefits to print impaired readers. This includes:
+
+easy navigation using built in tools in Adobe Reader, DAISY players and screen readers. This can reduce keystrokes, search time, eyestrain and repetitive strain injury (RSI).
+easier overview of content meaning – this benefits all readers, especially those with literacy difficulties.
+a greater level of interpretation for the reader, helping to clarify the relationships of key ideas.
+Structured information is the first step in the accessible information process (see “What is an Accessible Product”).
+
+Structure to be included
+When thinking about the structure of your books take care to think about the following areas. The level of structure will greatly depend upon the type of publishing you are involved in. Clear navigational structure should include:
+
+Metadata. This makes the book more easily discoverable before it is opened, in retail systems, and in the personal library on the reader’s reading device.  Be sure to take advantage of accessible product codes available within the ONIX for Books codelists.
+A hierarchy of named headings, parts, chapters, sections and subsections. This allows many mainstream devices and various assistive technologies to provide ways to navigate quickly around the document.
+ALT Text (see “Guidelines for Editorial and Design”) attached to each illustration which provides a description of the content of an image, for those who cannot view the image.
+Footnotes and references where appropriate.
+A logical flow to provide a reading order for the content.
+Running heads and page numbers. This allows print-impaired readers to compare their position in the document with conventional book readers.
+Index and contents with active hyperlinks.
+Wherever possible – depending on the mark up grammar you choose – include semantic tagging (because it aids screen readers).
+When to include Structure in your workflow
+The earlier you can include structure, the easier it will be for you to transfer that structure across formats.
+
+Author. In ideal circumstances all structure would be included at the authorial stage. For the concepts included in the content to be correctly nested within a coherent structure a good understanding of that content is essential. Your author may need some instruction about the importance of effective structure and how to follow in-house styles that may already be established. It would be a good idea to put together a generic instruction and explanation sheet that can help you to brief your authors if you think you want them to add structure.
+Editor. Much of the structure that is inherent in content is actually included at the editorial stage of the workflow. Most of the tagging that is required within an “XML first” workflow occurs here.
+Typesetting and page layout. Alternatively you can insert a level of structure at the mark-up stage; programs such as Adobe Acrobat or InDesign incorporate features that will assist you.
+Post production tagging. For some publishers it makes sense to include XML tags once you have finalised the printer’s PDF. By “retrofitting” a PDF file with structural tags you are still able to gain much of the flexibility that a structured document can offer.  However the reuse potential of the tagged PDF may be limited.
+Wherever in your workflow you are including structure it is good practice to maintain and archive your source documents.
+
+XML
+Structure is not necessarily all about XML. You can add a level of structure to your files without using an XML workflow. However, XML DTDs and schemas used in book publishing (whether proprietary to your company, or standards such as DocBook, DTBook, or even XHTML) do provide a standard way to identify various types of information and content hierarchies in a document. XML allows identification of various components in a structured document and tags are used to identify elements and attributes within the structure.
+
+As long as the various tag rules are followed, then an XML document is said to be “well-formed”. Whilst being well-formed is good, it isn’t enough, as a reading system such as a screen reader would not know what each tag meant. In order to be truly meaningful, an XML document should be “valid”. A valid document follows not only the XML tag rules, but also follows the rules established in a specific Document Type Definition (DTD) or schema. A DTD or schema defines the rules for the document and describes the structural elements and attributes to be used for that document. To be valid, you need a DTD or schema and a well formed XML document. This is content (the XML doc) and structure (the XML doc plus the DTD) being used to generate the appearance. It is recommended that you include a validation step in your XML workflow which you can set up with validation software.
+
+This is structure in its “ideal form” and if you are working within an “XML-first” environment you will already be experiencing the flexibility that this type of workflow can offer you. By implementing an XML first-workflow, you are able to create and supply a variety of different file formats from your valid and well formed XML documents. This may include files conforming to the new EPUB 3 standard which would include many accessibility features. (See “What is an Accessible Product”).
+
+Supplying files to Intermediary Organisations
+If you are supplying files to an organisation for assistance in conversion to an accessible format then the following points may help you to supply structured information in the correct way:
+
+You can supply various types of files to special format producers and you should check with the relevant organisation which files they accept and which they find most useful.
+Try to supply your document as one file. By splitting your title into files for chapters and sections you are creating more work during the conversion process.
+Ensure that your original files are constructed well and contain as much structure as possible.  Consistency here is vital to assist the conversion.
+All the metadata should be complete (including specific codes to describe the level of accessibility) and up to date. Missing information can slow the process of conversion.
+Make sure that that the reading order is coherent.
+It is extremely helpful if you can supply the alt text yourself rather than relying on them to write it. See “Guidelines for Editorial and Design”.
+Some intermediary organisations can supply Content Submission Guides – a very useful tool for the publisher if you need further assistance.
+
+Back to Table of Contents
+
+How to respond to enquiries
+Your company may already have a policy in place covering how you should respond to enquiries from people with a print impairment (or more likely those supporting them in an institutional context like a school or university). You may already have a specific person or team responsible for handling these enquiries; if not, it is a good idea to locate this responsibility very clearly and to make sure everyone in the company who might find themselves answering a call knows who has that responsibility and how to contact them. Clarity of responsibility will ensure that the person dealing with the enquiry has the necessary skills and knowledge. Consistency of response will enable you to provide an efficient and reliable service to your readers.
+
+This section is aimed primarily at that person who has the frontline responsibility. You need to be able to:
+
+ensure it is straightforward for print-impaired people (or those acting on their behalf) to contact you – for example by ensuring contact details are available via Publisher Lookup, on your company website etc.
+respond promptly to enquiries, and facilitate the most effective and speedy process for fulfilling requests; a common complaint is that contacts go completely unanswered or can take a very long time, which is particularly unhelpful in an educational context where teaching materials may be needed more-or-less instantly. You may find it useful to monitor response times for these enquiries so that you are able to improve these if necessary.
+clarify exactly what is being requested. What counts as “accessible” is different for different people and it is important to understand exactly what the need is. Sometimes your standard, commercial e-book version may be sufficient for the enquirer and it is potentially straightforward for you to supply this. For other readers you may need to organise something rather more specialised. See “What is an Accessible Product”. On occasion you will find that you need to question the terms of the enquiry carefully; it may be that you are capable of supplying a format that is more accessible than is being requested; enquirers don’t necessarily know or immediately feel comfortable using the range of what might be available to them.
+organise a licence for use where this is necessary. A carefully worded standard licence outlining the terms and conditions under which material is being supplied will help to ensure the security of your files.
+find, check and deliver the appropriate files or a complete accessible version of the requested title. You may also be able to accommodate personal preferences where possible. For example, sighted readers may have a preference about whether they read an e-book on a laptop in PDF or HTML or whether they prefer to read it on an e-book reader in EPUB. People with print disabilities are the same, and even if you can supply a really accessible EPUB version the person may feel most comfortable with a PDF.
+seek advice from any other individual in-house who may be able to help you. You should be aware of who is responsible for the archive in-house and what type of file formats are kept in the archive. If the format you require is not currently being archived it may be useful for you to be able to speak to production or IT about what might be achievable.
+You need to liaise carefully with the person who has overall responsibility in-house for accessibility (if it isn’t you!) and make sure that you are fully aware of the various options that you are allowed to offer under company policy. See “What is an Accessible Product” to understand the differences between the various file formats that you may be working with and how exactly your files might be able to fulfil the various requirements of the enquiry you are dealing with.
+
+Understand the Legal Framework
+You need to understand what you are mandated to supply by the legal framework of the territory or territories in which you operate including, for example, exactly what exceptions are allowed for people with disabilities and for those individuals and institutions serving their needs. There may be specific legislation covering single copies for personal use and multiple copies for collective use in different ways.
+
+You should make sure that you are aware of the licensing issues that are involved including those related to Creative Commons Licences6. For example, the enquiry may come from an organisation that is in possession of a Print Disability Licence which gives them a wide set of permissions to make copies of a title for use by those with print impairment. This is a licence they would have obtained from a licensing agency recognised within your markets.
+
+There may be a collective licence which would offer security to rightsholders and ease the administrative burden that individual licensing can entail. The Copyright Licensing Agency in the UK, for instance, issues collective licenses on behalf of rightsholders and has agreements with Reproduction Rights Organisations (RROs) for similar rights in 30 other countries.
+
+You may also be applying Digital Rights Management (DRM) to your files which will control the access to your digital content. This can greatly decrease the accessibility of your material and you need to consider its effects. If you are supplying files without any DRM attached you can still ensure the security of your material by applying password protection or by including a simple licence.
+
+Problems with supplying Accessible materials
+Once you have established exactly what is required, you may find that there is some difficulty in supplying all of it to the specification requested. With heavily illustrated material or a title involving a large volume of graphic or numeric information it can be very difficult sometimes to supply all of it in a fully accessible format. However, it is still worth exploring how much can be supplied and what you might be able to do to help.
+
+Suggest that there may be parts of the work which can be supplied in an accessible format – something is always better than nothing. By focusing on what can be done you may actually be able to supply a large proportion of what is needed.
+Make sure that the channels of dialogue are left open so that if you are able to supply something in the future which you cannot do today, the user or organisation knows about it. There is so much ongoing research to find ways to improve accessibility that you may be able to help in the future in ways you cannot predict today. By working with technology providers and with teachers you can ensure that you are exploring all options for future assistance.
+This kind of pro-active approach can be extremely helpful to people trying to access your titles and demonstrates that you, as a publisher, have a positive commitment to the issue of accessibility.
+
+Back to Table of Contents
+
+How to participate in TIGAR
+The Trusted Intermediary Global Accessible Resources (TIGAR) project is creating a global, virtual online catalogue of books produced in accessible formats. The current focus of the project is on accessible books (DAISY or Braille in electronic form) produced by not-for-profit “accessibility” organizations (or “trusted intermediaries”) that provide library services for people with print impairment. These are books that have been produced legitimately either under national copyright exceptions or under license. These books can be shared electronically between trusted intermediaries across national borders using TIGAR’s technical and copyright solutions. Copyright files can only be shared through secure technology and after permission has been granted by rights holders (that is, in most cases, by publishers). The next step will be enabling the search and discovery of accessible books produced by the mainstream publishing industry.
+
+Every trusted intermediary that joins the TIGAR network gains access to the combined collection of authorized accessible books for its print impaired members. This dramatically increases the choice of books available without the substantial cost of producing them separately in each country. Each additional publisher and trusted intermediary that joins the project contributes significantly to the number of accessible versions of books available to people with print impairment around the world.
+
+TIGAR will continue beyond its pilot stage that concludes at the end of October 2013. It is intended to progress towards becoming a permanent, sustainable entity and service that can help people with print impairment throughout the world to search, find and access books in accessible formats and different languages. This international pilot project is jointly funded by the World Intellectual Property Organisation, the International Publishers’ Association (IPA) International Federation of Reproduction Rights Organizations (IFRRO) and the DAISY Consortium, as well as participating organisations. The project is overseen by a Steering Committee with representatives from the rightholders7 and trusted intermediary communities, and WIPO. 
+ 
+
+Further Resources
+Accessibility Action Group
+The UK based Accessibility Action Group publishes the Publisher’s Accessibility Newsletter which gives an overview of UK and international developments. To access the newsletter visit: http://www.pls.org.uk/services/accessibility1/default.aspx?PageView=Shared
+
+Accessibility Standards
+BS8878 web accessibility – this code of practice is the first British Standard to address the growing challenge of digital inclusion and the full version of the standard is available from: http://shop.bsigroup.com/en/ProductDetail/?pid=000000000030180388.  Alternatively, visit http://www.hassellinclusion.com/bs8878/, a free page which brings together: the official slides on BS 8878 from its launch, case studies of organisations using BS 8878, detailed blogs on its use by SMEs, tools and training for applying the Standard, and news on its progress towards an International Standard.
+
+NIMAS – a standard developed in the United States to assist with the production of accessible content in the Higher Education sector. The NIMAS standard is based on the DAISY standard and is available at http://nimas.cast.org/
+
+Section 508 of the US Rehabilitation Act requires Federal agencies to make their electronic and information technology (EIT) accessible to people with disabilities. To view this standard, see http://www.section508.gov/index.cfm?fuseAction=stds
+
+Web Content Accessibility Guidelines (WCAG) from W3C, the standards setting body for the internet, aim to provide a single shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally. See http://www.w3.org/WAI/intro/wcag for full details.
+
+AFB-Tech
+The American Foundation for the Blind’s technology centre – AFB TECH – publishes AccessWorld, a journal that tests and provides comment on assistive technology in the marketplace – see http://www.afb.org/aw/main.asp for more information.
+
+BTAT – The Business Taskforce on Accessible Technology
+For information on this taskforce and other work conducted by the Employer’s Forum on Disability see www.btat.org. In particular, you can view the taskforce’s charter which may provide you with some guidance on putting together your own charter or company policy on accessibility.
+
+CNIB – Canadian National Institute for the Blind
+www.cnib.ca provides services and information for blind people in Canada and also offers consultancy services to businesses in their endeavours to provide accessible digital content. See http://www.accesscontent.ca for further information.
+
+DAISY Consortium, Pipeline Tools and Installation Guide
+The DAISY Consortium was formed in May, 1996 by talking book libraries to lead the worldwide transition from analog to Digital Talking Books. Members of the Consortium actively promote the DAISY Standard for Digital Talking Books (see the section entitles File formats). See www.daisy.org for further information.
+
+The DAISY Pipeline is a cross-platform, open source framework for DTB-related document transformations. It provides a comprehensive solution for converting text documents into accessible formats for people with print disabilities. The tools and services available within the DAISY Pipeline are:
+
+a2digital
+AEL Data
+Coral Hub Ltd
+DAISY 2.02 Regenerator
+DAISY Mark-up Service (DMS)
+DAISY Pipeline
+EasyConverter
+EasyProducer: Text to Digital Talking Book software
+gh, LLC
+MathDaisy from Design Science
+Net Systems Informatics – BarrierBreak Technologies
+RoboBraille
+Save as DAISY add-in for Microsoft Word
+Save as DTBook (DAISY XML) option in Adobe InDesign
+For full installation guides and download instructions please visit http://www.daisy.org/pipeline/download.  Visit http://www.daisy.org/project/save-as-daisy-microsoft for information on the recently developed tool “Save as DAISY”, an add-in for MS Word and http://www.daisy.org/project/save-as-daisy-openoffice.org/ for the Open Office add-in.
+
+Dyslexia Action
+A UK based charity and key participants in the UK Accessibility Action Group and Right to Read Alliance. http://www.dyslexiaaction.org.uk/
+
+ETIN
+The European Trusted Intermediary Network (ETIN) is the practical implementation of a Memorandum of Understanding (MoU) signed in September 2010. The network, which is based in Brussels, represents both Trusted Intermediary (TI) organisations (that is, organisations who cater to the needs of the visually impaired in each Member State, including accessible versions of books and maintaining libraries) and rights holders. Its aim is to facilitate the exchange of accessible versions made under copyright exceptions or under licences throughout Europe. ETIN shares the same primary objective as the TIGAR project and the two initiatives are complimentary and mutually supportive of each other. The two projects will work collaboratively, share strategies and ultimately, facilitate interoperability between the two initiatives. Further information about ETIN can be found on the European Commission website.
+
+International Digital Publishing Forum - IDPF
+The IDPF is the maintenance agency for EPUB and the new version of the standard EPUB 3. For further information on EPUB 3.0 visit: http://idpf.org/epub/30 The IDPF publish a set of guidelines for the new EPUB 3 standard and these can be found at http://www.idpf.org/accessibility/guidelines/
+
+International Dyslexia Association (IDA)
+Based in the US, the IDA is dedicated to the study and treatment of dyslexia as well as related language-based learning difficulties. See www.interdys.org/GlobalPartnersList.htm for a list of global partners and organisations around the world.
+
+JISC TechDis
+JISC TechDis is the UK's leading advisory service on technology and inclusion. The service specialises in supporting organisations within the education sectors and has numerous resources and a wealth of expertise that can be transferred immediately to the business and community sectors. For access to guidelines produced by JISC TechDis please visit: http://www.jisctechdis.ac.uk
+
+LIA
+The LibriItalianiAccessibili (LIA) project aims to create a service to make more publications available on the market in a format accessible to blind and visually impaired people. The project is funded by the Italian Ministry for Culture. It is being coordinated by AIE, (the Italian Publishers’ Association), and managed by its consultancy firm Ediser in co-operation with UIC (the Italian Blind Union) as well as with other stakeholders working in the field of visual impairment.
+
+LIA has chosen EPUB as the preferred format to create and distribute 3,000 accessible fiction and non-fiction titles. The pilot phase of the project has been completed and accessible publications are available online. For more information, please email segreteria@progettolia.it
+
+NFB – National Federation of the Blind
+The largest and most influential membership organisation of blind people in the United States. See www.nfb.org for further information.
+
+NVDA – Non Visual Desktop Access
+This new piece of software is free to users and would provide you with a useful screen reader tool that can enable user testing. This is open source, Windows-based software that is available in over twenty languages. See http://www.nvda-project.org/ for download details and further information
+
+ONIX for Books
+A metadata standard widely used in commercial book publishing and retailing. It allows publishers and others to describe all aspects of print, Braille, e-books and audio books. Publishers now have an opportunity to describe the accessibility features within e-books affording greater discoverability and more accurate detail for the consumer. The newly extended controlled vocabulary that has been developed for versions 2.1 and 3.0 of ONIX works to balance the high level of detail that an individual reader may require in order to discern whether a particular e-book is suitable – given their individual level of impairment – and the practical concerns and limited awareness of the issues that are common within publishing organisations.
+
+PDF Accessibility checker
+PAC, a free PDF Accessibility Checker, developed by the foundation Access-for-All, (http://www.access-for-all.ch/en.html). PAC offers the added possibility of displaying a preview of the structured PDF document in a web browser. The PAC preview shows which tags are included in the PDF document and presents the accessible elements in the same way as they would be interpreted by assistive technologies. PAC also provides an accessibility report which lists the detected accessibility errors. Clicking the links in the report displays the most probable source of the error within the document."
+
+Publisher LookUp
+By making your details available on Publisher Lookup you provide a way to give easy access information to your customers. Visit http://www.publisherlookup.org.uk to add your details in the UK and www.accesstext.orghttp://www.publisherlookup.com in the US.
+
+Publishers Association
+The Publishers Association in the UK provides guidelines for publishers on meeting the permissions needs of people with disabilities. Recent activity includes the publication of a Joint Statement of commitment to accessible publishing. For this and other accessibility advice please visit http://www.publishers.org.
+
+Right to Read Alliance
+This UK based advocacy group is a coalition of 21 organisations, working in partnership with publishers, developers, device manufacturers, retailers, librarians and others to overcome the barriers and realise the potential of digital publishing. http://www.rnib.org.uk/getinvolved/campaign/accesstoinformation/righttoread/Pages/righttoread.aspx
+
+Royal National Institute of Blind People
+This UK based Institute provides many guidelines on accessibility. In particular their publication on e-book creation (www.rnib.org.uk/ebookguidance) is a useful tool and forms part of a wider set of advice for publishers available at http://rnib.org.uk/publisheradvice. RNIB also publishes an independent review of accessible e book reading systems at http://rnib.org.uk/ebooks and comprehensive set of clear print and large type guidelines. For this and other accessibility advice: http://www.rnib.org.uk/professionals/accessibleinformation
+
+South African National Council for the Blind
+For information on work and services offered in South Africa please visit www.sancb.org.za
+
+TIGAR project
+The Trusted Intermediary Global Accessible Resources (TIGAR) project aims to provide access to copyright-protected works in accessible formats for people with print disabilities across borders. Participants include WIPO, publishers, RROs, national libraries and charities that provide specialised services for people with print disabilities.
+
+Many organizations, including trusted intermediaries and publishers, have signed the TIGAR Memorandum of Agreement (TIGAR MOU), which sets out the arrangement to facilitate early trials of cross border file exchange for accessible books between limited numbers of trusted intermediaries. The implementation of the TIGAR Project is managed by a TIGAR Project Management Team (PMT), consisting of an Overarching Project Manager and two deputy project managers. Jim Russell, who is a member of the TIGAR PMT, manages rights holder activities of the Project. Publishers should contact Jim Russell for further information and guidance. (jim.russell@rpm-associates.co.uk; +44 (0) 1454 415410). Further information about TIGAR, including details of current participating organisations, can be found at http://www.tigarnetwork.org
+
+Training in accessibility issues
+Free online training is available at http://www.editeur.org/137/Enabling-Technologies-Framework-Training-for-Publishers/ where EDItEUR and JISC TechDis have collaborated on a series of half hour online training sessions for publishers. These are practical versions of these guidelines, intended for all departments.
+
+UKAAF: UK Association for Accessible Formats
+Setting standards and promoting best practice for quality accessible information based on user needs. This website includes guidelines on authoring Alt Text and producing audio http://www.ukaaf.org
+ 
+
+Vision Australia
+Vision Australia is the leading organisation for Australians who are blind or have low vision. For more information on the work and services offered visit www.visionaustralia.org.au
+
+WIPO – World Intellectual Property Organization
+The World Intellectual Property Organization (WIPO) is a specialized agency of the United Nations. It is dedicated to developing a balanced and accessible international intellectual property system, which rewards creativity, stimulates innovation and contributes to economic development while safeguarding the public interest.
+
+WIPO is the sponsor of the Enabling Technologies Framework project which aims to evolve mainstream publishing processes so that they are capable of delivering inclusive digital publications that are fully accessible to people with reading disabilities.
+
+ 
+
+World Blind Union
+The WBU is the internationally recognised umbrella organisation, representing blind and partially sighted persons in 190 member countries. Speaking with a universal voice on a global level, WBU brings together major national and international organisations of blind persons and those providing services to them. www.worldblindunion.org
+
+Back to Table of Contents
+
+Glossary
+Accessible editions
+General term for large print, Braille editions, e-books and audio books that can be used by the blind, partially-sighted, dyslexics or others who cannot use a conventional physical book.
+
+ADE (Adobe Digital Editions)
+The brand name of proprietary e-book reader software from Adobe Systems. It is used for reading e-books, digital newspapers, and other digital publications on desktop PCs and Macs. The software, which supports PDF, XHTML (through the EPUB file type specification), and Flash-based content, implements a scheme of DRM known as ‘ACS4’ or ADEPT.
+
+Alt Text (Alternative text)
+A description of the content of an image that is not normally visible to a user. It is usually accessed through text-to-speech applications or with other specialist Assistive Technologies that allow the user to choose to have it displayed. It is helpful both to blind users who cannot see the image at all and to those who are partially sighted who may be able to read large type but find images hard to interpret.
+
+Assistive Technology
+Technological devices that have been developed with features that are specifically helpful for people with disabilities. Publishers may be asked to supply file formats that are compatible with particular types of assistive technology.  The Assistive Technology association, www.atia.org, can provide further information.
+
+Braille Display
+A type of Assistive Technology, a hardware device which can be attached to a computer or mobile device which interprets text into Braille in real time. It contains sets of pins which can be raised and lowered to construct the Braille encoding which can be read by touch.
+
+DAISY (Digital Accessible Information Systems)
+The specialist standard format developed by the DAISY Consortium for use in the creation of accessible versions for the print impaired; the DAISY Consortium is a not-for-profit organisation which represents libraries for people with print disabilities. The DAISY format allows the digital distribution of both text and audio formats and has much more sophisticated Navigational Information than has been typical in commercial e-books or audio books. Although effective use of the DAISY format has required specific reader software (which may be implemented either on a PC or on a specialist audio device), the new version of the EPUB specification, EPUB 3.0, represents a complete convergence with the DAISY delivery format. Any platform which is fully compliant with EPUB 3.0 should also be compliant with DAISY.
+
+DAISY Pipeline
+An open suite of validation tools designed to assist in the format conversion to DAISY files, available from the DAISY Consortium.
+
+DIAGRAM
+The Digital Image and Graphic Resources for Accessible Materials (DIAGRAM) Center at Benetech is a 5-year research and development project devoted to revolutionizing the way image and graphic content is produced and accessed, in order to provide students with print disabilities timely access to the information they need. The Center is chartered to:
+
+Research the current state of accessibility of images, graphs, and other non-text content in accessible instructional materials,
+Develop innovative, open-source technologies and tools to address the challenges of producing and displaying accessible content, and
+Recommend standards and practices and develop training to support these efforts.
+Since its inception in May 2010, DIAGRAM has developed an open source web-based tool for adding image descriptions to textbooks (Poet), developed a data model for image description metadata (the DIAGRAM Content Model), evaluated existing tools for authoring and using accessible images, advocated for technical standards and guidelines critical to accessibility, and continues to conduct research and development in areas including enhanced images, tactile graphics and other alternatives. The DIAGRAM Center is funded by the US Department of Education Office of Special Education Programs (OSEP) and managed by Benetech in partnership with the WGBH National Center for Accessible Media (NCAM) and the US Fund for DAISY (USFDAISY). See http://diagramcenter.org for further details.
+
+DTB, DT Book
+Digital Talking Book, sometimes a generic term, and sometimes synonymous with DAISY format book. Also DTBook, the XML-based format for textual content that is used inside a DAISY format book.
+
+DRM (Digital Rights Management)
+Access control technologies (also known as Technical Protection Measures) that may be applied to a digital file to automate control over access and use of the file. The content itself is encrypted, and certain types of use may be controlled – for example the number of devices onto which a file can be copied, or the number of pages of a file that can be printed. DRM can hinder interoperability between platforms, and prevent many assistive technologies from working.
+
+DTD
+See XML-DTD
+
+E-book reader
+A specialised handheld device with a small screen that displays the text of an e-book. Most are able to display EPUB files and PDFs, but some use proprietary formats tied to a specific retailer. Some devices provide control over type size, font, or provide text-to-speech facilities that make them suitable for use by some print-impaired readers.
+
+E-book reader software
+A special application that enables a general-purpose device such as a mobile phone, PC or tablet to act like a specialised e-book reader.
+
+EPUB
+E-book content format standard published by the International Digital Publishing Forum (IDPF). EPUB is based on HTML/XHTML and is the native format used by many common commercial e-book platforms; it is rapidly becoming the standard format for e-books. In its latest version, EPUB3, it It has a very good range of accessible features, and is probably the best format for mainstream accessible publishing. See also DAISY.
+
+HTML/XHTML (HyperText Markup Language)
+The markup language for web pages, HTML provides the basic building blocks of web pages. XHTML is a set of XML specifications that extend the rather limited capabilities of HTML and make it more disciplined. Both HTML 5.0 and XHTML 5.0 are currently under development by the World Wide Web Consortium.
+
+Navigational Information
+The elements of markup which are designed to assist a user to move around the content of a digital file. A detailed table of contents, for example, can enable a reader to navigate to a specific chapter or a subsection within a chapter; they may use a bookmark to find a previously marked location; or use a “Find” facility to locate a particular word or phrase.
+
+NIMAS (The National Instructional Materials Accessibility Standard)
+A standard developed in the United States to assist with the production of accessible content in the Higher Education sector. The NIMAS standard is based on the DAISY standard.
+
+PDF (Portable Document Format)
+A file format which enables a document to be used on many different computer platforms but always to maintain the same visual appearance and page layout. Originally developed by Adobe in the early 1990s, PDF is now an ISO standard and is widely used throughout the publishing industry both as part of its process for producing printed products and for some types of electronic product. The specifications of PDF files may vary depending on their intended use; some forms of PDF (particularly those specifically aimed at printing applications) are far from ideal for use in the production of accessible editions.
+
+Performed Speech
+See Synthetic Speech
+
+Publisher Lookup
+A collaborative database providing publisher contact information to educationalists who are trying to source electronic versions of titles for print impaired learners. This type of service has been implemented in both the United States and the UK.
+
+Screen Reader
+A software application that runs at the same time as other computer programs and reads aloud whatever is displayed on the computer screen, enabling a blind person to use a computer or mobile device such as a phone to navigate menus and read within applications.
+
+Social DRM
+An approach to protecting content that can include the use of usernames and passwords or other approaches such as “watermarking” that embeds information about the purchaser (licensee) into an electronic publication, to encourage compliance with the terms of a licence. In contrast to other forms of DRM, social DRM does not enforce the licence terms, though it may enable detection of breaches of the licensed rights and tracing of those accountable. The content of the publication is not encrypted (though the embedded information might be), and, as a result, social DRM does not interfere with assistive technology in the way that other DRMs do.
+
+Synthetic Speech
+Artificial speech generated by a computer. Sounds are based on a dictionary of pronunciation and/or phonetic knowledge. Many different synthetic “voices” are available to cover different languages and frequently offer both male and female voices. Widely used in both mainstream and Assistive Technologies. Many audio books use “performed speech” which can be the accessible preference for some because the added ‘colour’ a human reader adds improves comprehension.
+
+Tags (or Markup)
+The short elements enclosed in “pointy brackets” < > that are used in an HTML or XML document to identify elements and attributes. For example a second-level heading may be surrounded by tags like this: <h2>Here is the heading</h2>. Each element has a start tag identifying the beginning of an element and an end tag (or an implicit end) identifying the end of that element. Tagging has several benefits: it provides a standard structure, giving clear meaning to each element and allows sharing of data from one system to another.
+
+TTS (Text To Speech)
+The capability, available on many e-book reading devices, to render digital text as Synthetic Speech, allowing someone who cannot see the text to listen to it instead (see also Screen Readers). This capability may be built into the reading device but may need to be enabled specifically for each product as it can be disabled on some platforms by DRMs.
+
+XML (Extensible Markup Language)
+Provides a set of rules for encoding structured information. XML can be shared across many different audiences/organisations. XML is a standard way to describe different types of information. The different types of information are called document types:
+
+documents are broken into elements
+elements are arranged in a hierarchy
+the markup delimiting the elements and enclosing the actual data in the document provides a context which makes interpretation of the data clear, making XML ideal for communication between computer systems and for highly-structured documents
+the range and structure of specific elements used in XML documents can be tailored for specific uses through a DTD
+XMLDTD (Extensible Markup Language – Document Type Definition)
+The specific set of XML markup rules that are used to define a particular sort of document. May be standard (such as DocBook of DTBook for example) or proprietary; DTDs are costly to develop and manage, and are normally used for many different documents of the same type. In order for an XML document to be valid, you need a DTD and a well formed XML document.
+
+XML–DocBook
+An XML DTD used for structuring book texts. The text of the book contains XML markup that divides it up into parts, chapters, paragraphs, tables, lists, footnotes and so on. The markup is structural and semantic, rather than having anything to do with how the text content should be presented, and the docbook can be processed automatically to create e-books, large print, conventional print or synthetic audio versions of the book.
+
+ 
+
+ _____________________________
+1 For people who are blind a PDF is unlikely to be helpful here. 
+2 The Publishers Association in the UK recommend that publishers enable text to speech in their digital products
+3 In 2012 EDItEUR conducted a follow up survey entitled Towards Accessibility where levels of awareness amongst the publishing community were looked at. See www.editeur.org for further information.
+4 The ONIX for Books Product Information Message is the international standard for representing and communicating book industry product information in electronic form.
+5 See www.editeur.org for more information on the Towards Accessibility Survey 2012
+6 Creative Common License: A Creative Commons license in general is used when an author wants to give people the right to share and use a work that they have created. 
+7 The current representatives to the TIGAR Steering Committee from the rights holders community are: Alicia Wise (Elsevier, co-chair), Jens Bammel (IPA), Olav Stokkmo (IFFRO) and Rainer Just (VG Wort).
+ 
+
+Contact Us
+Hosted by World Intellectual Property Organization
+Accessibility Terms of use
+Type ! to start highlighting.
