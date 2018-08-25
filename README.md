@@ -35,7 +35,7 @@ Uma curiosidade: você sabia que o \<small\>, muitas vezes usado para criar um t
 \<p\>\<small\>Copyright 2018 by Booknando Livros LTDA\</small\>\</p\>
 
 
-5. Defina o conteúdo de cada etiqueta
+## Defina o conteúdo de cada etiqueta
 Isto tem tudo a ver com o ponto 4. O uso correto do WAI-ARIA e do epub:type permite definirmos a função de cada elemento. Isto é muito importante para que o software de leitura de tela, o screen reader consiga fornecer esta informação a quem está escutando o texto.
 
 Por exemplo a entrada \<dl epub:type=“glossary”\> indica que o tag \<dl\> esta sendo utilizado para formatar um glossário.
@@ -85,7 +85,7 @@ Caso você faça uso de vídeo ou áudio no seu livro forneça sempre outro modo
 ## Inclua interações acessíveis
 Quando fizer uso de SVG ou de javascript (são poucos os casos), certifique-se que estas interações sejam acessíveis. Os controles das interações devem utilizar a fundo o ARIA, indicando os atributos apropriados (roles, states, e properties).
 
-13. Use os metadados de acessibilidade
+## Use os metadados de acessibilidade
 Além dos metadados normais do seu eBook é importante acrescentar informações específicas de acessibilidade. Estes metadados deverão estar no content.opf e fornecem aos softwares de leitura informações sobre o tipo de conteúdo que o livro contém. Além disto os sistemas de buscas podem identificar mais facilmente o arquivo como acessível.
 
 ## Enfim, certifique-se que as indicações acima sejam realmente aplicadas.
@@ -95,11 +95,6 @@ Desenvolva um guia de boas práticas e um bom checklist que ajude o designer e o
 
 Faça com que todos os envolvidos no fluxo de produção entendam bem o que é acessibilidade e saibam como implementá-la. Do autor à quem faz o cotejo do livro é importante que todos estejam conscientes que acessibilidade não é um recurso mas sim um requisito básico das publicações digitais.
 
-Gostou deste artigo? Compartilhe, contribua com suas observações, comentários e dicas! Me escreva: fernando@booknando.com.br ou me siga no twitter: @JFTavares
-
-Se você ainda não produz livros digitais conheça o curso “Técnicas de produção de livros digitais” que vai te ensinar tudo o que você precisa saber para iniciar a produzir profissionalmente.
-
-Se você já trabalha com livros digitais aprofunde os conhecimentos com o Curso avançado de ePub3 acessível.
 
 ## Fonte:
 Estas dicas foram publicadas originalmente pelo Diagram Center que é uma iniciativa da BENETECH empresa sem fins lucrativos especializada em livros acessíveis. O meu texto não é uma tradução fiel mas uma adaptação. ↩︎
