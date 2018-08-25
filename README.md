@@ -12,31 +12,33 @@ Já fazemos isto, de alguma forma, quando produzimos um ePub, porém precisamos 
 
 No livro impresso é bem comum termos estes elementos que aparecem ao lado do texto. No ePub precisamos colocar eles em uma ordem de leitura coerente e bem estruturada no HTML. Não use reposicionamento com CSS ou mesmo texto em forma de imagem.
 
-Use corretamente os tags de estrutura que o HTML5 oferece (<section>, <article>, <header>, etc...) para criar uma ordem de leitura principal e outros tags específicos para os elementos auxiliares, como notas de rodapé, quadros de textos, referências.
+Use corretamente os tags de estrutura que o HTML5 oferece (\<section\>, \<article\>, \<header\>, etc...) para criar uma ordem de leitura principal e outros tags específicos para os elementos auxiliares, como notas de rodapé, quadros de textos, referências.
 
 ## Separe sempre o conteúdo da apresentação
 Isto é possível fazer usando corretamente o CSS e o HTML. Lembre-se HTML serve para criar a estrutura do texto e é o CSS quem cuida da apresentação visual. O significado do texto deve permanecer o mesmo seja com o design aplicado ou sem ele.
 
 Outra anotação importante é a de não usar tabela para forçar uma formatação visita do texto; nem use somente as cores como indicação da importância de uma palavra.
 
-É importante lembrar que os tags <strong> e <em> não significam apenas bold e itálico, mas carregam com eles mais significados que podem ser interpretados pelos softwares leitores de tela.
+É importante lembrar que os tags <strong\> e <em\> não significam apenas bold e itálico, mas carregam com eles mais significados que podem ser interpretados pelos softwares leitores de tela.
 
 ## Uso de sumários e sistemas de navegação
-Inclua sempre um sumário bem completo. Aliás, é possível incluir até mais de um sumário. Você pode assim especificar melhor os conteúdos presentes no livro. Estruturando bem o tag <section> e o tag <aside> você vai poder fornecer uma ordem de leitura lógica e bem organizada.
+Inclua sempre um sumário bem completo. Aliás, é possível incluir até mais de um sumário. Você pode assim especificar melhor os conteúdos presentes no livro. Estruturando bem o tag <section\> e o tag <aside\> você vai poder fornecer uma ordem de leitura lógica e bem organizada.
 
 ## Crie uma estrutura significativa
-Use sempre os tags corretos de títulos (<h1>, <h2> etc..) na ordem correta e sem pular de níveis. Não use os tags para definir design! Para isto existem as classes! O livro deve apresentar um uso coerente destas etiquetas de títulos.
+Use sempre os tags corretos de títulos (\<h1\>, \<h2\> etc..) na ordem correta e sem pular de níveis. Não use os tags para definir design! Para isto existem as classes! O livro deve apresentar um uso coerente destas etiquetas de títulos.
 
-É fundamental conhecer o uso do epub:type. Este atributo explica o que o elemento é. Por exemplo um <section epub:type=“preface”> indica que este é um bloco de texto que chamamos de Prefácio. Aqui entra também o uso do WAI-ARIA, que vai a se sobrepor ao ePub:type e fornece também um significado para a tag. Assim nosso texto ficaria <section epub:type=“preface” role=“role-prefacie”>.
+É fundamental conhecer o uso do epub:type. Este atributo explica o que o elemento é. Por exemplo um \<section epub:type=“preface”\> indica que este é um bloco de texto que chamamos de Prefácio. Aqui entra também o uso do WAI-ARIA, que vai a se sobrepor ao ePub:type e fornece também um significado para a tag. Assim nosso texto ficaria \<section epub:type=“preface” role=“role-prefacie”\>.
 
-Uma curiosidade: você sabia que o <small>, muitas vezes usado para criar um texto em “falso versalete” deveria ser usado apenas para os textos “pequenos”, não em tamanho, mas em significado, ou seja, aqueles textos que completam algo, como por exemplo a informação de copyright:
+Uma curiosidade: você sabia que o \<small\>, muitas vezes usado para criar um texto em “falso versalete” deveria ser usado apenas para os textos “pequenos”, não em tamanho, mas em significado, ou seja, aqueles textos que completam algo, como por exemplo a informação de copyright:
 
-<p>Booknando - Consultoria, formação e produção de livros digitais</p>
-<p><small>Copyright 2018 by Booknando Livros LTDA</small></p>
+\<p\>Booknando - Consultoria, formação e produção de livros digitais\</p\>
+\<p\>\<small\>Copyright 2018 by Booknando Livros LTDA\</small\>\</p\>
+
+
 5. Defina o conteúdo de cada etiqueta
 Isto tem tudo a ver com o ponto 4. O uso correto do WAI-ARIA e do epub:type permite definirmos a função de cada elemento. Isto é muito importante para que o software de leitura de tela, o screen reader consiga fornecer esta informação a quem está escutando o texto.
 
-Por exemplo a entrada <dl epub:type=“glossary”> indica que o tag <dl> esta sendo utilizado para formatar um glossário.
+Por exemplo a entrada \<dl epub:type=“glossary”\> indica que o tag \<dl\> esta sendo utilizado para formatar um glossário.
 
 Use o EPUB 3 Structural Semantics Vocabulary para identificar o conteúdo.
 
@@ -62,13 +64,13 @@ Este recurso fornece também outra forma de navegar pelo livro, além de ser de 
 
 Com o atributo epub:type=“pagebreak” você define as páginas no texto. Recomendo colocar a indicação no início do texto da página, para ser mais fácil encontrar o conteúdo. Você não precisa deixar o número aparecendo no meio do texto, pode definir apenas como âncora no texto:
 
-<span id="pag45" epub:type="pagebreak" />
+\<span id="pag45" epub:type="pagebreak" /\>
 Depois disto vai ser necessário acrescentar lá no documento de navegação, o toc.xhtml, as referências para estas âncoras.
 
 ## Defina a língua do documento
 Algo que em geral não se faz nos eBook mas que é fundamental quando falamos de acessibilidade é definir dentro do tag HTML principal a língua do documento. Ainda que esta já tenha sido definida nos metadados você deve acrescentar também em cada documento a informação xml:lang= “pt” lang= “pt”.
 
-Caso exista um parágrafo ou uma citação em lingua diferente basta acrescentá-la no texto: <span xml:lang=“fr” lang=“fr”>rue Saint-Andre-des-Arts</span>.
+Caso exista um parágrafo ou uma citação em lingua diferente basta acrescentá-la no texto: \<span xml:lang=“fr” lang=“fr”\>rue Saint-Andre-des-Arts\</span\>.
 
 ## Use o MathML
 Para as equações matemática é recomendado o utilizo do MathML para que seja eliminada a ambigüidade na leitura de uma imagem. Também é possível o uso do SVG com uma adequada descrição.
@@ -105,7 +107,7 @@ Estas dicas foram publicadas originalmente pelo Diagram Center que é uma inicia
 
 # Tradução a ser feita
 
-Texto traduzido de <http://www.accessiblebooksconsortium.org/publishing/en/accessible_best_practice_guidelines_for_publishers.html>
+Texto traduzido de \<http://www.accessiblebooksconsortium.org/publishing/en/accessible_best_practice_guidelines_for_publishers.html\>
 para o português por José Fernando Tavares - Booknando Livros
 
 Tradução em andamento.
