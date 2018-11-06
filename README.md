@@ -102,7 +102,8 @@ Estas dicas foram publicadas originalmente pelo Diagram Center que é uma inicia
 
 # Tradução a ser feita
 
-Texto traduzido de \<http://www.accessiblebooksconsortium.org/publishing/en/accessible_best_practice_guidelines_for_publishers.html\>
+Texto traduzido de
+http://www.accessiblebooksconsortium.org/publishing/en/accessible_best_practice_guidelines_for_publishers.html
 para o português por José Fernando Tavares - Booknando Livros
 
 Tradução em andamento.
